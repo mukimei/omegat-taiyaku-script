@@ -5,7 +5,10 @@ OmegaT 対訳 (Bilingual Translation) Script
 This script generates a 対訳 (TAIYAKU) – Bilingual Translation in CSV format. It works for any language pair in OmegaT, though it has been thoroughly tested with Japanese as the source text and English as the target text.
 
 If the translator included any notes in OmegaT’s Notepad, these will appear in a third column of the CSV output.
+
+----
 Features
+----
 
 1. Automatically generates a copy of project_save.tmx (as project_save_copy.tmx) each time the script runs.
 2. Reorders the content of the TMX file to match the order of the source text (fixing potential misalignments in the original TMX).
@@ -20,10 +23,14 @@ CSV format:
     Source Text | Target Text | Notes
 
 This allows you to easily edit translations outside of OmegaT.
+
+----
 Installation Instructions
+----
 
 Place the script in the scripts folder of your OmegaT installation directory.
-Disable read-only mode and ensure you have admin rights to modify the folder.
+
+*Disable read-only mode and ensure you have admin rights to modify the folder.*
 
 {YourDrive}:\OmegaT\scripts
 
