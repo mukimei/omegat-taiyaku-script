@@ -10,6 +10,10 @@ Features
 1. Automatically generates a copy of project_save.tmx (as project_save_copy.tmx) each time the script runs.
 2. Reorders the content of the TMX file to match the order of the source text (fixing potential misalignments in the original TMX).
 3. Saves the output CSV file and the TMX copy in the script_output folder within your OmegaT project.
+
+Location of output CSV file:
+{YourProjectName}/script_output
+
 ----
 CSV format:
 ----
@@ -20,6 +24,9 @@ Installation Instructions
 
 Place the script in the scripts folder of your OmegaT installation directory.
 Disable read-only mode and ensure you have admin rights to modify the folder.
+
+{YourDrive}:\OmegaT\scripts
+
 ----
 How It Works
 ----
