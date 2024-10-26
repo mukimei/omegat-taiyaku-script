@@ -22,7 +22,7 @@ def projectName = project.projectProperties.projectName // Get project name
 def tmxFile = new File(projectFolder, "omegat/project_save.tmx") // Updated path
 def copyTmxFile = new File(projectFolder, "script_output/project_save_copy.tmx")
 
-// Use project name + 対訳 for output CSV file
+// Use project name + 対訳 for output CSV file *Change to whatever you want if not translating between Japanese and English
 def csvFile = new File(projectFolder, "script_output/${projectName}_対訳.csv")
 
 // Create output folder if it doesn't exist
